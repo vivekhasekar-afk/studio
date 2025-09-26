@@ -1,4 +1,4 @@
-import { LoginForm } from "@/components/auth/login-form";
+import { LoginFormClient } from "@/components/auth/login-form-client";
 import { Logo } from "@/components/logo";
 
 export default function LoginPage() {
@@ -14,7 +14,7 @@ export default function LoginPage() {
             Securely access the future of healthcare.
           </p>
         </div>
-        <LoginForm />
+        <LoginFormClient />
         <p className="px-8 text-center text-sm text-muted-foreground">
           By clicking continue, you agree to our{" "}
           <a
